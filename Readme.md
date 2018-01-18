@@ -1,8 +1,4 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
-
-* Студент: [Роман Макаров](https://up.htmlacademy.ru/adaptive/13/user/575911).
-* Наставник: `Неизвестно`.
-
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами — `source/`.**
