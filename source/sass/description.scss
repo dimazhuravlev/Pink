@@ -1,0 +1,15 @@
+.description {
+  display: block;
+  width: 100%;
+  background-image: url("../img/bg-triangle-white.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 16px;
+  box-sizing: border-box;
+}
+
+.description__title {
+  color: $color-dark;
+  margin-bottom: 32px;
+  text-align: center;
+}

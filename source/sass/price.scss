@@ -1,0 +1,65 @@
+.price {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.price__list {
+}
+
+.price__item {
+
+}
+
+.price__header {
+  position: relative;
+  background-color: $bg-color-dark;
+  padding: 20px;
+}
+
+.price__hit {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.price__hit-label {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: $color-white;
+  transform: rotate(-45deg);
+  letter-spacing: 1.5px;
+}
+
+.price__subtitle {
+  color: $color-white;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.price__value {
+  color: $color-white;
+  text-align: center;
+}
+
+.price__features {
+  background-color: $color-white;
+  padding: 0 20px;
+}
+
+.price__desc {
+  display: flex;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 20px 8px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid $bg-color-light;
+}
+
+.price__text {
+}
+
+.price__icon {
+
+}

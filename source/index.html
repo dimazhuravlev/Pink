@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Пинк — главная страница</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <header class="header">
       <a class="header__logo">
-        <img src="img/logo.svg" width="200" height="40" alt="Пинк">
+        <img src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Пинк">
       </a>
+      <button class="header__toggle" type="button">Открыть меню</button>
       <nav class="navigation">
-        <button class="navigation__burger" type="button">Открыть меню</button>
         <ul class="navigation__list">
           <li class="navigation__item navigation__item--active">
             <a href="index.html">Главная</a>
@@ -31,39 +32,43 @@
 
     <main class="main">
 
-      <h1 class="visually-hidden">Приложение Pink — выкладывай фотографии и общайся в комменатриях</h1>
-      <img class="main__pic" src="http://placehold.it/320x320">
       <section class="download">
-        <a class="button download__button" href="https://www.apple.com/itunes">Скачать приложение</a>
-        <div class="download__icons">
-          <a class="download__link"><img src="img/itunes.svg" width="60" height="60" alt="Айтюнс"></a>
-          <a class="download__link"><img src="img/android.svg" width="60" height="60" alt="Андроид"></a>
-          <a class="download__link"><img src="img/windows.svg" width="60" height="60" alt="Виндоус"></a>
+        <div class="download__pic">
+          <h1 class="visually-hidden">Приложение Pink</h1>
+          <img src="img/iphone-hand-mobile@1x.png">
         </div>
-        <p class="download__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <div class="download__desc">
+          <a class="button download__button" href="https://www.apple.com/itunes">Скачать приложение</a>
+          <div class="download__icons">
+            <a class="download__link"><img src="img/logo-apple.svg" width="60" height="60" alt="Айтюнс"></a>
+            <a class="download__link"><img src="img/logo-android.svg" width="60" height="60" alt="Андроид"></a>
+            <a class="download__link"><img src="img/logo-microsoft.svg" width="60" height="60" alt="Виндоус"></a>
+          </div>
+          <p class="download__text">Доступно для iPhone, iPad, Android,<br> Windows Phone, OS X, Windows 8</p>
+        </div>
       </section>
 
       <div class="description">
-        <h2 class="description__title title">Устали от серости мегаполиса?</h2>
-        <h2 class="description__title title">Нам есть, что вам предложить!</h2>
+        <h2 class="description__title title">Устали от серости<br> мегаполиса?</h2>
+        <h2 class="description__title title">Нам есть, что вам<br> предложить!</h2>
       </div>
 
      <section class="features">
        <div class="features__list">
          <div class="features__item">
-           <h3 class="features__suptitle suptitle">Поднимает настроение</h3>
+           <h3 class="features__subtitle subtitle">Поднимает настроение</h3>
            <p class="features__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
          </div>
          <div class="features__item">
-           <h3 class="features__suptitle suptitle">Меняет мир вокруг</h3>
+           <h3 class="features__subtitle subtitle">Меняет мир вокруг</h3>
            <p class="features__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
          </div>
          <div class="features__item">
-           <h3 class="features__suptitle suptitle">Заводит новых друзей</h3>
+           <h3 class="features__subtitle subtitle">Заводит новых друзей</h3>
            <p class="features__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
          </div>
        </div>
-       <img class="features__pic" src="http://placehold.it/157x320">
+       <img class="features__pic" src="img/iphone-screen-mobile@1x.png">
      </section>
 
      <section class="feedback">
@@ -74,7 +79,7 @@
          </div>
        </div>
        <div class="feedback__toggles slider">
-            <button class="slider__toggle" type="button">1</button>
+            <button class="slider__toggle slider__toggle--active" type="button">1</button>
             <button class="slider__toggle" type="button">2</button>
             <button class="slider__toggle" type="button">3</button>
        </div>
@@ -84,66 +89,65 @@
        <div class="price__list">
          <div class="price__item">
              <div class="price__header">
-               <img src="http://placehold.it/30x30" alt="хит">
                <h3 class="price__subtitle subtitle">База</h3>
                <h2 class="price__value title">1,99 USD</h2>
              </div>
              <div class="price__features">
                <div class="price__desc">
-                 <p class="price_text">Розовый фильтр</p>
-                 <img class="icon-yes" src="http://placehold.it/35x35">
+                 <p class="price__text text">Розовый фильтр</p>
+                 <img class="price__icon icon-yes" src="../img/icon-yes.svg">
                </div>
                <div class="price__desc">
-                 <p class="price_text">Смайлики</p>
-                 <img class="icon-no" src="http://placehold.it/35x35">
+                 <p class="price__text text">Смайлики</p>
+                 <img class="price__icon icon-no" src="../img/icon-no.svg">
                </div>
                <div class="price__desc">
-                 <p class="price_text">Комментарии</p>
-                 <img class="icon-no" src="http://placehold.it/35x35">
+                 <p class="price__text text">Комментарии</p>
+                 <img class="price__icon icon-no" src="../img/icon-no.svg">
                </div>
              </div>
          </div>
 
          <div class="price__item">
              <div class="price__header">
-               <img src="http://placehold.it/30x30" alt="хит">
+               <img class="price__hit" src="../img/bg-hit-tablet.svg" width="74px" height="74px" alt="хит">
+               <div class="price__hit-label subtitle">ХИТ</div>
                <h3 class="price__subtitle subtitle">Стандарт</h3>
                <h2 class="price__value title">3,99 USD</h2>
              </div>
              <div class="price__features">
                <div class="price__desc">
-                 <p class="price_text">Розовый фильтр</p>
-                 <img class="icon-yes" src="http://placehold.it/35x35">
+                 <p class="price__text text">Розовый фильтр</p>
+                 <img class="price__icon icon-yes" src="../img/icon-yes.svg">
                </div>
                <div class="price__desc">
-                 <p class="price_text">Смайлики</p>
-                 <img class="icon-yes" src="http://placehold.it/35x35">
+                 <p class="price__text text">Смайлики</p>
+                 <img class="price__icon icon-yes" src="../img/icon-yes.svg">
                </div>
                <div class="price__desc">
-                 <p class="price_text">Комментарии</p>
-                 <img class="icon-no" src="http://placehold.it/35x35">
+                 <p class="price__text text">Комментарии</p>
+                 <img class="price__icon icon-no" src="../img/icon-no.svg">
                </div>
              </div>
          </div>
 
          <div class="price__item">
              <div class="price__header">
-               <img src="http://placehold.it/30x30" alt="хит">
                <h3 class="price__subtitle subtitle">Анлим</h3>
                <h2 class="price__value title">9,99 USD</h2>
              </div>
              <div class="price__features">
                <div class="price__desc">
-                 <p class="price_text">Розовый фильтр</p>
-                 <img class="icon-yes" src="http://placehold.it/35x35">
+                 <p class="price__text text">Розовый фильтр</p>
+                 <img class="price__icon icon-yes" src="../img/icon-yes.svg">
                </div>
                <div class="price__desc">
-                 <p class="price_text">Смайлики</p>
-                 <img class="icon-yes" src="http://placehold.it/35x35">
+                 <p class="price__text text">Смайлики</p>
+                 <img class="price__icon icon-yes" src="../img/icon-yes.svg">
                </div>
                <div class="price__desc">
-                 <p class="price_text">Комментарии</p>
-                 <img class="icon-yes" src="http://placehold.it/35x35">
+                 <p class="price__text text">Комментарии</p>
+                 <img class="price__icon icon-yes" src="../img/icon-yes.svg">
                </div>
              </div>
          </div>
@@ -166,7 +170,9 @@
      </section>
 
      <section class="map">
-       <iframe src="https://yandex.ru/map-widget/v1/-/CBeYYVWHDA" width="320" height="320" frameborder="0"></iframe>
+       <div class="map__triangle"></div>
+       <div class="map__marker"></div>
+       <iframe class="map_widget" src="https://yandex.ru/map-widget/v1/-/CBeYYVWHDA" width="100%" height="380px" frameborder="0"></iframe>
      </section>
 
     </main>

@@ -1,0 +1,16 @@
+.navigation {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $bg-color-dark;
+}
+
+.navigation__list {
+  list-style: none;
+}
+
+.navigation__item {
+  text-align: center;
+}

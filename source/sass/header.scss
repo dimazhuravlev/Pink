@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(29, 38, 49, .7);
+  padding: 16px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.header__logo {
+  display: inline-block;
+  z-index: 1;
+}
+
+.header__toggle {
+  display: inline-block;
+  float: right;
+  z-index: 1;
+}
